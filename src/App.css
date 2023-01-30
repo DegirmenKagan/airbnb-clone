@@ -10,6 +10,14 @@ section {
   padding: 70px;
 }
 
+.gray{
+  color:#918E9B;
+}
+
+.bold{
+  font-weight: bold;
+}
+
 .hero--div{
   display:flex;
   flex-direction: column;
@@ -34,4 +42,43 @@ section {
   line-height: 110%;
   color: #222222;
   margin-top:0;
+}
+
+.card{
+  display:flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+}
+
+.card--img{
+  width: 400px;
+  border-radius: 9px;
+}
+
+.card--info{
+  margin-top: 20px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 110%;
+
+
+
+}
+
+.card--star{
+  height:30px;
+}
+
+.card--pointText{
+  margin-left: 10px;
+  color: #222222;
+}
+
+.card > h2{
+  margin-top: 0;
+  font-weight: 300;
+  line-height: 110%;
 }
