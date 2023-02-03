@@ -6,7 +6,7 @@ export default function Card() {
   return (
     <div className="card">
       <img className="card--img" src={katieZaferes} />
-      <div className="card--info">
+      <div className="card--stats">
         <img className="card--star" src={star} />
         <span className="card--pointText"> 5.0</span>
         <span className="gray">(6) ∙ </span>
