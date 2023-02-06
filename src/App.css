@@ -46,14 +46,27 @@ section {
 
 .card{
   display:flex;
+  flex: 0 0 auto;
   width:400px;
   flex-direction: column;
   font-family: 'Poppins';
 }
 
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .card--img{
   width: 100%;
   border-radius: 9px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card--stats{
@@ -66,6 +79,10 @@ section {
 
 .card--star{
   height:30px;
+}
+
+.card--price {
+  margin-top: auto;
 }
 
 .card--pointText{
